@@ -6,6 +6,19 @@ You could take some inspiration from here; https://www.poetryfoundation.org/poem
 
 - What data to save?
 - Which types of fields would you have? Do you need dates?
-- Estimate how much data will you allow to be saved 
+- Estimate how much data will you allow to be saved in your fields
 - Describe the data in whatever way you find best
 - Show how you would create the table(s) for your data
+
+----
+
+## Basic Data structure for Poem app
+
+Poems
+    - Title         - TEXT(100)
+    - Content       - TEXT(10000)
+    - Source        - TEXT(100)
+    - Author        - TEXT(100)
+    - Created       - DATETIME
+    - Edited        - DATETIME
+    - Published     - BOOLEAN
